@@ -5,6 +5,6 @@ This tool is useful when someone wants to copy data from one high throughput io 
 Possible situations when aioblkcopy can be useful:
 1. Copying one iscsi drive to another.
 2. Copying data to distant fiber channel device.
-3. Copying data to LVM-base mirror.
+3. Copying data to LVM-based clustered mirror.
 
 Any block devices/files on that devices with high latency and request queueing features.
