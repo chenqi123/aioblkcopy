@@ -7,4 +7,4 @@ Possible situations when aioblkcopy can be useful:
 2. Copying data to distant fiber channel device.
 3. Copying data to LVM-based clustered mirror.
 
-Any block devices/files on that devices with high latency and request queueing features.
+Copying data to/from any other block devices/files if that devices have high latency and io-request queueing capable.
